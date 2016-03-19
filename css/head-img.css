@@ -1,0 +1,298 @@
+#gears{
+    width:478px;
+    height:655px;
+    position:relative;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+
+.shadow{
+    -webkit-box-shadow: 4px 7px 25px 10px rgba(43, 36, 0, 0.36);
+    -moz-box-shadow: 4px 7px 25px 10px rgba(43, 36, 0, 0.36);
+    box-shadow: 4px 7px 25px 10px rgba(43, 36, 0, 0.36);
+}
+
+
+/*gear-system-6*/
+#gear5{
+    background: url(http://www.html5tricks.com/demo/jiaoben1984/css/FgFnjks.png) no-repeat 0 -1746px;
+    width: 134px;
+    height: 135px;
+    position:absolute;
+    left:22px;
+    top:108px;
+    -webkit-animation: rotate 10000ms linear infinite alternate;
+    -moz-animation: rotate 10000ms linear infinite alternate;
+    -ms-animation: rotate 10000ms linear infinite alternate;
+    animation: rotate 10000ms linear infinite alternate;
+}
+#shadow5{
+    width:96px;
+    height:96px;
+    -webkit-border-radius:48px;
+    -moz-border-radius:48px;
+    border-radius:48px;
+    position:absolute;
+    left:41px;
+    top:127px;
+}
+#gear2{
+    background: url(http://www.html5tricks.com/demo/jiaoben1984/css/FgFnjks.png) no-repeat 0 -1364px;
+    width: 80px;
+    height: 79px;
+    position:absolute;
+    left:49px;
+    top:136px;
+    -webkit-animation: rotate-back 10000ms linear infinite alternate;
+    -moz-animation: rotate-back 10000ms linear infinite alternate;
+    -ms-animation: rotate-back 10000ms linear infinite alternate;
+    animation: rotate-back 10000ms linear infinite alternate;
+}
+/*weight*/
+#weight{
+    background: url(http://www.html5tricks.com/demo/jiaoben1984/css/FgFnjks.png) no-repeat -371px -564px;
+    width: 34px;
+    height: 92px;
+    position:absolute;
+    left:1px;
+    bottom:0;
+    -webkit-animation: up 10000ms linear infinite alternate;
+    -moz-animation: up 10000ms linear infinite alternate;
+    -ms-animation: up 10000ms linear infinite alternate;
+    animation: up 10000ms linear infinite alternate;
+}
+#shadowweight{
+    width:10px;
+    height:80px;
+    position:absolute;
+    left:12px;
+    bottom:0px;
+    -webkit-animation: up 10000ms linear infinite alternate;
+    -moz-animation: up 10000ms linear infinite alternate;
+    -ms-animation: up 10000ms linear infinite alternate;
+    animation: up 10000ms linear infinite alternate;
+}
+/*chain*/
+#chain-circle{
+    background: url(http://www.html5tricks.com/demo/jiaoben1984/css/FgFnjks.png) no-repeat -371px -706px;
+    width:146px;
+    height:147px;
+    position:absolute;
+    left:17px;
+    top:102px;
+    -webkit-animation: rotate 10000ms linear infinite alternate;
+    -moz-animation: rotate 10000ms linear infinite alternate;
+    -ms-animation: rotate 10000ms linear infinite alternate;
+    animation: rotate 10000ms linear infinite alternate;
+}
+#chain{
+    width:1px;
+    height:380px;
+    border-left:2px dotted #C8D94A;
+    position:absolute;
+    left:17px;
+    top:175px;
+    opacity:0.7;
+    -webkit-animation: collapse 10000ms linear infinite alternate;
+    -moz-animation: collapse 10000ms linear infinite alternate;
+    -ms-animation: collapse 10000ms linear infinite alternate;
+    animation: collapse 10000ms linear infinite alternate;
+}
+/*ANIMATIONS*/
+/*rotate*/
+@keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-moz-keyframes rotate {
+    from {
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-ms-keyframes rotate {
+    from {
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-o-keyframes rotate {
+    from {
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+/*rotate-back*/
+@keyframes rotate-back {
+    from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -o-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+@-moz-keyframes rotate-back {
+    from {
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+@-webkit-keyframes rotate-back {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+@-ms-keyframes rotate-back {
+    from {
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+@-o-keyframes rotate-back {
+    from {
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -o-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+/*weight up*/
+@keyframes up {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 340px;
+    }
+}
+@-moz-keyframes up {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 340px;
+    }
+}
+@-webkit-keyframes up {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 340px;
+    }
+}
+@-ms-keyframes up {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 340px;
+    }
+}
+@-o-keyframes up {
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 340px;
+    }
+}
+/*chain up and down*/
+@keyframes collapse {
+    from {
+        height: 387px;
+    }
+    to {
+        height: 48px;
+    }
+}
+@-moz-keyframes collapse {
+    from {
+        height: 387px;
+    }
+    to {
+        height: 48px;
+    }
+}
+@-webkit-keyframes collapse {
+    from {
+        height: 387px;
+    }
+    to {
+        height: 48px;
+    }
+}
+@-ms-keyframes collapse {
+    from {
+        height: 387px;
+    }
+    to {
+        height: 48px;
+    }
+}
+@-o-keyframes collapse {
+    from {
+        height: 387px;
+    }
+    to {
+        height: 48px;
+    }
+}
