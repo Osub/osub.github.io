@@ -1,7 +1,9 @@
 #gears{
-    width:478px;
+    width:228px;
     height:655px;
     position:relative;
+    top:5%;
+    left: 20%;
     display:inline-block;
     vertical-align:middle;
 }
