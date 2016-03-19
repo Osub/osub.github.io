@@ -610,12 +610,16 @@ a {
 #header .profilepic {
   text-align: center;
   display: block;
+  -webkit-box-shadow: 0 0 0 2px rgba(255,255,255,0.5), 0px 2px 20px 3px rgba(0,0,0,0.25);
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.5), 0px 2px 20px 3px rgba(0,0,0,0.25);
   -webkit-border-radius: 300px;
   border-radius: 300px;
   width: 128px;
   height: 128px;
   margin: 0 auto;
   position: relative;
+  overflow: hidden;
+  background: #88acdb;
   -webkit-transition: all 0.2s ease-in;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
